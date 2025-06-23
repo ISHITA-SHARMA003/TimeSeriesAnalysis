@@ -7,12 +7,6 @@ The goal of this project is to predict stock market prices using time series dat
 
 ---
 
-**Team Members:**  
-- **Aryan Patel** (Team Lead - Data Scientist)  
-- **Vani Mehta** (Data Analyst)  
-- **Rohit Desai** (Machine Learning Engineer)  
-
----
 
 ### **Technologies Used**
 
@@ -25,8 +19,6 @@ The goal of this project is to predict stock market prices using time series dat
   - **Scikit-learn** (for preprocessing and evaluation)  
   - **Statsmodels** (for ARIMA model)  
   - **Yahoo Finance API** (for downloading stock data)  
-
----
 
 ### **Dataset**
 
@@ -43,7 +35,6 @@ The goal of this project is to predict stock market prices using time series dat
    - Resampled data to a daily frequency.
    - Normalized features to standardize the input range for the models.
    
----
 
 ### **Key Features of the Project**
 
@@ -235,44 +226,6 @@ plt.grid(True)
 plt.show()
 ```
 
----
-
-### **How to Run the Project**
-
-1. **Clone the repository:**  
-   ```bash
-   git clone https://github.com/InformativeSkills-Projects/Time-Series-Stock-Market-Prediction.git
-   cd Time-Series-Stock-Market-Prediction
-   ```
-
-2. **Install dependencies:**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the ARIMA model script:**  
-   ```bash
-   python src/train_arima_model.py
-   ```
-
-4. **Run the LSTM model script:**  
-   ```bash
-   python src/train_lstm_model.py
-   ```
-
----
-
-### **Results**
-
-1. **ARIMA Model:**  
-   - Achieved an **MSE of 0.02** for predicting stock prices on the test dataset.
-
-2. **LSTM Model:**  
-   - LSTM predicted stock prices with **90% accuracy** for short-term forecasting.  
-   - Able to predict future prices with high precision when trained on large datasets.
-
----
-
 ### **Applications**
 
 1. **Stock Market Forecasting:**  
@@ -284,18 +237,5 @@ plt.show()
 3. **Algorithmic Trading:**  
    - Automate trading strategies based on stock price predictions.
 
----
 
-### **Future Enhancements**
-
-1. **Use of more features:**  
-   - Incorporate technical indicators like moving averages, RSI, and MACD for better
-
- predictions.
-
-2. **Hyperparameter Optimization:**  
-   - Use techniques like grid search or random search to find the best parameters for the models.
-
-3. **Real-time Predictions:**  
-   - Implement real-time stock price prediction using streaming data.
 
